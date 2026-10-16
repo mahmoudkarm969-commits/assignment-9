@@ -1,0 +1,330 @@
+body {
+    background-color: #F2F6FC;
+    box-sizing: border-box;
+}
+
+.navbar-inner {
+    padding: 0 32px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.brand-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background-color: #6233F9;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+.brand-text h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.Hub {
+    color: #7F22FE;
+}
+
+.brand-text p {
+    color: #989EA9;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-add {
+    background-color: #742BFC;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.btn-add:hover {
+    transform: translate(0, -3px);
+}
+
+.btn-add svg {
+    width: 11px;
+    height: 12px;
+}
+
+.btn-add span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-actions {
+    width: 40px;
+    height: 40px;
+    background-color: initial;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-actions:hover {
+    background-color: #F3F4F6;
+    color: #364153;
+}
+
+.btn-actions svg {
+    width: 14px;
+    height: 16px;
+    border: 0;
+    color: #949BA4;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 32px;
+}
+
+.cards {
+    margin-bottom: 32px;
+}
+
+.details {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card {
+    padding: 20px;
+    border-color: #F4F6F8;
+    box-shadow: 0 0 0 white;
+    transition: 0.2s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 0 #E0E2E4;
+}
+
+.total {
+    background-color: #2576FF;
+}
+
+.favourite {
+    background-color: #FF9A00;
+}
+
+.emergency {
+    background-color: #EC0024;
+}
+
+.details svg {
+    width: 20px;
+    height: 16px;
+}
+
+.p1 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6A74A6;
+}
+
+.p2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+}
+
+.head {
+    margin-bottom: 20px;
+}
+
+.head h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2b2f39;
+    margin: 0;
+}
+
+.head p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6A72A2;
+    margin-top: 8px;
+}
+
+.search svg {
+    width: 16px;
+    height: 16px;
+    color: #99A1AF;
+}
+
+.search-input {
+    padding: 14px 16px 14px 44px;
+    border: 1px solid rgba(172, 172, 172, 0.77);
+    background: rgba(255, 255, 255, 0.2);
+    color: #3a3f4b;
+}
+
+.empty-contacts {
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(221, 239, 232, 0.2), rgba(217, 236, 220, 0.3));
+    border-radius: 20px;
+    margin-top: 22px;
+}
+
+.empty-contacts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 18px;
+    color: #3f4654;
+}
+
+.empty-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(222, 230, 238, 0.6);
+    color: #8d99aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+.empty-text h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.empty-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5d6472;
+}
+
+.article {
+    margin-bottom: 20px;
+    border: 1px solid rgba(220, 222, 226, 0.9);
+    border-radius: 22px;
+    overflow: hidden;
+    background: #f5f5f5;
+    box-shadow: 0 1px 0 rgba(15, 23, 42, 0.02);
+}
+
+.article-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+}
+
+.favorites-card .article-header {
+    background: #FFF4DC;
+}
+
+.emergency-card .article-header {
+    background: #FEF0F1;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+.icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-favorites {
+    background-color: #ff8f26;
+}
+
+.icon-emergency {
+    background-color: #ED0024;
+}
+
+.heading h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2d2f36;
+}
+
+.heading p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7a7d86;
+    margin-top: 2px;
+}
+
+.empty-state {
+    background: rgba(255, 255, 255, 0.45);
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #A5ACB9;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.empty-state p {
+    margin: 0;
+}
+
+.content {
+    width: 65%;
+}
+
+.sidebar {
+    width: 32%;
+}
